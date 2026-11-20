@@ -1,0 +1,19 @@
+{
+  "name": "fruit-io-server",
+  "version": "1.0.0",
+  "description": "Server-authoritative Socket.IO multiplayer backend for FRUIT.IO",
+  "main": "server.js",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --env-file=.env --watch server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  }
+}
